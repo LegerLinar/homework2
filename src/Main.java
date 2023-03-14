@@ -62,6 +62,7 @@ public class Main {
 
     }
         public static void part4(){
+
         System.out.println("Задача 6");
 
         var firstBoxerWeight = 78.2;
@@ -71,6 +72,13 @@ public class Main {
         var difBoxersWeights = secondBoxerWeight - firstBoxerWeight;
         System.out.println("Разница боксеров в весе " + difBoxersWeights + "кг");
 
+        System.out.println("Задача 7");
+
+        var heavierBoxerAdvantage = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Более тяжелый боксер имеет превосходство на " + heavierBoxerAdvantage + " кг");
+
+        var lighterBoxerDisatvantage = secondBoxerWeight % firstBoxerWeight;
+        System.out.println("Более легкий боксер уступает в весе на " + lighterBoxerDisatvantage + " кг");
 
         }
 }
