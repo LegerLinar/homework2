@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         part1();
         part2();
+        part3();
     }
 
     public static void part1() {
@@ -43,5 +44,20 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
     }
+    public static void part3() {
+        System.out.println("Задача 5");
 
+        var frog = 3.5;
+        System.out.println(frog);
+
+        frog = frog * 10;
+        System.out.println(frog);
+
+        frog = frog / 3.5;
+        System.out.println(frog);
+
+        frog = frog + 4;
+        System.out.println(frog);
+
+    }
 }
