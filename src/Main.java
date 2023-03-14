@@ -77,8 +77,20 @@ public class Main {
         var heavierBoxerAdvantage = secondBoxerWeight - firstBoxerWeight;
         System.out.println("Более тяжелый боксер имеет превосходство на " + heavierBoxerAdvantage + " кг");
 
-        var lighterBoxerDisatvantage = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Более легкий боксер уступает в весе на " + lighterBoxerDisatvantage + " кг");
+        var lighterBoxerDisadvantage = secondBoxerWeight % firstBoxerWeight;
+        System.out.println("Более легкий боксер уступает в весе на " + lighterBoxerDisadvantage + " кг");
 
+        System.out.println("Задача 8");
+
+        var totalWorkingHours = 640;
+        var perEmployeeHours = 8;
+        var totalEmployeesAmount = totalWorkingHours / perEmployeeHours;
+
+        System.out.println("Всего работников в компании — " + totalEmployeesAmount + " человек.");
+
+        var employeesReinforcement = 94;
+        var reinforcedStaff = totalEmployeesAmount + employeesReinforcement;
+        var reinforcedWorkingHours = reinforcedStaff * 8;
+        System.out.println("Если в компании работает " + reinforcedStaff + " человек, то всего " + reinforcedWorkingHours + " часов работы может быть поделено между сотрудниками");
         }
 }
