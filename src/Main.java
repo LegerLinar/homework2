@@ -7,11 +7,7 @@ public class Main {
         System.out.println("Задача 1");
         var dog = 8.0;
         var cat = 3.6;
-        var paper = 763789;
-
-
-
-
+        var paper = 7639;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
