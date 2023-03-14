@@ -71,5 +71,6 @@ public class Main {
         var difBoxersWeights = secondBoxerWeight - firstBoxerWeight;
         System.out.println("Разница боксеров в весе " + difBoxersWeights + "кг");
 
+
         }
 }
